@@ -6,7 +6,7 @@ This application will assist you in providing the correct information and format
 ## Table of Contents
 
 * [Installation](https://github.com/xunvyre/rm-gen#installation)
-* [Usage](https://github.com/xunvyre/rem-gen#usage)
+* [Usage](https://github.com/xunvyre/rm-gen#usage)
 * [Future Development](https://github.com/xunvyre/rm-gen#future-development)
 * [Licensing](https://github.com/xunvyre/rm-gen#licensing)
 * [Credits](https://github.com/xunvyre/rm-gen#credits)
