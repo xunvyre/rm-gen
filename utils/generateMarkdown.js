@@ -6,10 +6,10 @@ function generateMarkdown(data)
 # ${data.title}
 ## Description
 ${data.desc}${generateTOC(data)}${generateInst(data)}${generateUse(data)}${generateLicense(data)}${generateCont(data)}${generateTest(data)}
-## Credits
-${data.credits}
 ## Future Development
 ${data.dev}
+## Credits
+${data.credits}
 ## Contact
 Please reach out to me with any questions or suggestions!
 * Github: [${data.username}](https://github.com/${data.username}/)
@@ -53,7 +53,7 @@ const generateTOC = data =>
     if (data.confirmTest === true)
     {
       returnTest = () => {return `
-* [Testing](https://github.com/${data.username}/${data.repo}#contribution)`};
+* [Testing](https://github.com/${data.username}/${data.repo}#testing)`};
     }
     else
     {
@@ -62,7 +62,7 @@ const generateTOC = data =>
     if (data.confirmLisence === true)
     {
       returnLisence = () => {return `
-* [Lisencing](https://github.com/${data.username}/${data.repo}#contribution)`};
+* [Licensing](https://github.com/${data.username}/${data.repo}#licensing)`};
     }
     else
     {
