@@ -10,9 +10,9 @@ This application will assist you in providing the correct information and format
 * [Lisencing](https://github.com/xunvyre/rm-gen#contribution)
 * [Credits](https://github.com/xunvyre/rm-gen#credits)
 ## Installation
-Along with the download of this application, you will need to make sure that the application has access to Node.js and Inquirer 8.2.4. I recommend using NPM.undefined
+Along with the download of this application, you will need to make sure that the application has access to Node.js and Inquirer 8.2.4. I recommend using NPM.
 ## Licensing
-[This project is covered under the MIT license.](https://choosealicense.com/licenses/mit/)undefinedundefined
+[This project is covered under the MIT license.](https://choosealicense.com/licenses/mit/)
 ## Credits
 Xunvyre 2022
 ## Future Development

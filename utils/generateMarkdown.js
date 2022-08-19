@@ -102,7 +102,7 @@ ${data.inst}`;
   }
   else if (data.confirmInst === false)
   {
-    return;
+    return ``;
   }
 };
 
@@ -116,7 +116,7 @@ ${data.use}`;
   }
   else if (data.confirmUse === false)
   {
-    return;
+    return ``;
   }
 };
 
@@ -130,7 +130,7 @@ ${data.cont}`;
   }
   else if (data.confirmCont === false)
   {
-    return;
+    return ``;
   }
 };
 
@@ -144,7 +144,7 @@ ${data.test}`;
   }
   else if (data.confirmTest === false)
   {
-    return;
+    return ``;
   }
 };
 
@@ -158,7 +158,7 @@ const generateLicense = data =>
   }
   else if (data.confirmLisence === true)
   {
-    return;
+    return ``;
   }
 };
 
