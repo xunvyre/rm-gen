@@ -18,6 +18,11 @@ const questions =
     },
     {
         type: 'input',
+        name: 'repo',
+        message: `What is the name of your project's repository?`,
+    },
+    {
+        type: 'input',
         name: 'title',
         message: `What is the title of your project?`,
     },
@@ -52,7 +57,7 @@ const questions =
     },
     {
         type: 'confirm',
-        name: 'conformCont',
+        name: 'confirmCont',
         message: `Would you like to include contribution instructions for your project?`,
         default: true,
     },
@@ -84,7 +89,13 @@ const questions =
         type: 'list',
         name: 'license',
         message: `Please select a license:`,
-        choices: ['MIT', 'CC', 'GPL', 'MPL 2.0', 'WTFPL', 'Unlicense']
+        choices: ['AFL-3.0', 'MIT', 'MPL-2.0', 'OSL-3.0', 'Unlicense', 'WTFPL'],
+        when: ({confirmLisence}) => confirmLisence,
+    },
+    {
+        type: 'input',
+        name: 'dev',
+        message: `Please enter any plans for future development. If none, explain the current condition of your project:`,
     },
     {
         type: 'input',
@@ -113,4 +124,5 @@ init()
     .then(data =>
     {
         generateMarkdown(data);
+        console.log(generateMarkdown(data));
     });
