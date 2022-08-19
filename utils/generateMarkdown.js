@@ -76,5 +76,91 @@ ${returnInst()}${returnUse()}
 * [Credits](https://github.com/${data.username}/${data.repo}#credits)`;
 };
 
+
+//create badge for the top of the readme
+const createLicenseBadge = data =>
+{
+  if (data.confirmLisence === true)
+  {
+    return `![${data.license} badge.](https://img.shields.io/badge/License-${data.license}-pink.svg)
+Made with Xunvyre's README generator ♡`;
+  }
+  else if (data.confirmLisence === false)
+  {
+    return `Made with Xunvyre's README generator ♡`;
+  }
+};
+
+//generate certain sections based on confirmations
+const generateInst = data =>
+{
+  if (data.confirmInst === true)
+  {
+    return `
+## Installation
+${data.inst}`;
+  }
+  else if (data.confirmInst === false)
+  {
+    return;
+  }
+};
+
+const generateUse = data =>
+{
+  if (data.confirmUse === true)
+  {
+    return `
+## Usage
+${data.use}`;
+  }
+  else if (data.confirmUse === false)
+  {
+    return;
+  }
+};
+
+const generateCont = data =>
+{
+  if (data.confirmCont === true)
+  {
+    return `
+## Contribution
+${data.cont}`;
+  }
+  else if (data.confirmCont === false)
+  {
+    return;
+  }
+};
+
+const generateTest = data =>
+{
+  if (data.confirmTest === true)
+  {
+    return `
+## Testing
+${data.test}`;
+  }
+  else if (data.confirmTest === false)
+  {
+    return;
+  }
+};
+
+const generateLicense = data =>
+{
+  if (data.confirmLisence === true)
+  {
+    return `
+## Licensing
+[This project is covered under the ${data.license} license.](https://choosealicense.com/licenses/${(data.license).toLowerCase()}/)`;
+  }
+  else if (data.confirmLisence === true)
+  {
+    return;
+  }
+};
+
 //export
 module.exports = generateMarkdown;
