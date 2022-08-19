@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer");
+const writeFile = require("./utils/generateFile")
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
@@ -125,4 +126,8 @@ init()
     {
         generateMarkdown(data);
         console.log(generateMarkdown(data));
+    })
+    .then(readmeData =>
+    {
+        return writeFile(readmeData);
     });
