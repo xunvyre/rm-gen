@@ -11,6 +11,8 @@ This application will assist you in providing the correct information and format
 * [Credits](https://github.com/xunvyre/rm-gen#credits)
 ## Installation
 Along with the download of this application, you will need to make sure that the application has access to Node.js and Inquirer 8.2.4. I recommend using NPM.
+## Usage
+https://user-images.githubusercontent.com/105830470/185533466-156a9a58-842a-42c7-aa3b-1ceab08862a4.mp4
 ## Licensing
 [This project is covered under the Unlicense license.](https://choosealicense.com/licenses/unlicense/)
 ## Future Development
