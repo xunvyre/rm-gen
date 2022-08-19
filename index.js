@@ -126,8 +126,17 @@ init()
     {
         generateMarkdown(data);
         console.log(generateMarkdown(data));
+        return generateMarkdown(data);
     })
     .then(readmeData =>
     {
         return writeFile(readmeData);
+    })
+    .then(writeFileResponse =>
+    {
+        console.log(writeFileResponse);
+    })
+    .catch(err =>
+    {
+        console.log(err);
     });
