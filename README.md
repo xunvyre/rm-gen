@@ -6,6 +6,7 @@ This application will assist you in providing the correct information and format
 ## Table of Contents
 
 * [Installation](https://github.com/xunvyre/rm-gen#installation)
+* [Usage](https://github.com/xunvyre/rem-gen#usage)
 * [Future Development](https://github.com/xunvyre/rm-gen#future-development)
 * [Licensing](https://github.com/xunvyre/rm-gen#licensing)
 * [Credits](https://github.com/xunvyre/rm-gen#credits)
@@ -13,10 +14,10 @@ This application will assist you in providing the correct information and format
 Along with the download of this application, you will need to make sure that the application has access to Node.js and Inquirer 8.2.4. I recommend using NPM.
 ## Usage
 https://user-images.githubusercontent.com/105830470/185533466-156a9a58-842a-42c7-aa3b-1ceab08862a4.mp4
-## Licensing
-[This project is covered under the Unlicense license.](https://choosealicense.com/licenses/unlicense/)
 ## Future Development
 In the future, I will be adding the ability to add images and videos to the README without having to add them to the generated file.
+## Licensing
+[This project is covered under the Unlicense license.](https://choosealicense.com/licenses/unlicense/)
 ## Credits
 Xunvyre 2022
 ## Contact
